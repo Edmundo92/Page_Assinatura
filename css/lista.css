@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	font-family: Helvetica;
+}
+
+a{
+	text-decoration: none;
+}
+
+html, body{
+	height: 100%;
+}
+
+nav{
+   width: 100%;
+   height: 50px;
+   background: #C1A78E;
+   text-align: center;
+   /*z-index: 99;*/
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin-left: 30px;
+	line-height: 50px;
+}
+
+nav a:hover{
+    border-bottom: 4px solid black;
+	padding-bottom: 4px;
+}
+
+#secao1{
+    height: 600px;
+	width: 1300px;
+	border: 0px solid red;
+}
+
+.campo_lista{
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+    overflow: auto;
+	border: 0px solid red;
+}
+
+h3{
+	margin-left: 97px;
+	margin-top: 25px;
+	padding: 5px;
+	text-align: center;
+	color: #C1A78E;
+    text-align: left;
+	border: 1px solid white;
+}
+
+/* configurar a barra de rolagem */
+
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+::-webkit-scrollbar{
+  width: 13px;
+  background-color: #C1A78E;
+  
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #C1A78E;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); 
+}
+
+/*configuração, barra de progresso*/
+
+.barra{
+	border-bottom: 0px solid #C1A78E;
+	height: 65px;
+	width: 89%;
+	margin: auto;
+	display: flex;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	/*justify-content: space-between;*/
+}
+
+
+/*------------------------------------------------*/
